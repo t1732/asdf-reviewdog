@@ -23,7 +23,7 @@
 Plugin:
 
 ```shell
-asdf plugin add reviewdog https://github.com/<YOUR GITHUB USERNAME>/asdf-reviewdog.git
+asdf plugin add reviewdog https://github.com/t1732/asdf-reviewdog.git
 ```
 
 reviewdog:
