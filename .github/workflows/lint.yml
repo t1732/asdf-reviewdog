@@ -29,7 +29,7 @@ jobs:
         uses: asdf-vm/actions/install@v1
 
       - name: List file to shfmt
-        run: shfmt -f .
+        run: shfmt -f -i 2 .
 
       - name: Run shfmt
         run: scripts/shfmt.bash
