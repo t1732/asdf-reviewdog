@@ -1,6 +1,6 @@
 <div align="center">
 
-# asdf-reviewdog
+# asdf-reviewdog [![Build](https://github.com/t1732/asdf-reviewdog/actions/workflows/build.yml/badge.svg)](https://github.com/t1732/asdf-reviewdog/actions/workflows/build.yml) [![Lint](https://github.com/t1732/asdf-reviewdog/actions/workflows/lint.yml/badge.svg)](https://github.com/t1732/asdf-reviewdog/actions/workflows/lint.yml)
 
 
 [reviewdog](https://github.com/reviewdog/reviewdog) plugin for the [asdf version manager](https://asdf-vm.com).
@@ -11,7 +11,6 @@
 
 - [Dependencies](#dependencies)
 - [Install](#install)
-- [Contributing](#contributing)
 - [License](#license)
 
 # Dependencies
