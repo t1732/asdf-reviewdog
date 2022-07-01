@@ -4,7 +4,7 @@ set -euo pipefail
 
 GH_REPO="https://github.com/reviewdog/reviewdog"
 TOOL_NAME="reviewdog"
-TOOL_TEST="reviewdog --help"
+TOOL_TEST="reviewdog -version"
 
 fail() {
   echo -e "asdf-$TOOL_NAME: $*"
@@ -55,7 +55,7 @@ install_version() {
 
   (
     cd "$ASDF_DOWNLOAD_PATH"
-    "$ASDF_DOWNLOAD_PATH"/install.sh
+    "$ASDF_DOWNLOAD_PATH"/install.sh "v${version}"
     mkdir -p "$install_path"
     cp -r "$ASDF_DOWNLOAD_PATH"/bin/* "$install_path"
 
